@@ -4,19 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="987ee26a-ca3f-416f-a122-414c1f09b8e1" name="Default Changelist" comment="SSM 小案例">
-      <change beforePath="$PROJECT_DIR$/src/main/java/controler/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controler/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/accountDao/IAccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/accountDao/IAccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/IServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/IServiceImpl.java" afterDir="false" />
+    <list default="true" id="987ee26a-ca3f-416f-a122-414c1f09b8e1" name="Default Changelist" comment="注释修改">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controler/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interceptor/CustomInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring_mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring_mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../my_repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServletRequest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -39,15 +64,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/pages" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\ssm\src\main\webapp\pages" />
       <recent name="E:\git\ssm\src\main\webapp" />
       <recent name="E:\git\ssm\src\main\java\dao" />
       <recent name="E:\git\ssm\src\main\resources" />
@@ -81,7 +110,10 @@
       <updated>1655176058968</updated>
       <workItem from="1655176060086" duration="266000" />
       <workItem from="1655176355412" duration="31000" />
-      <workItem from="1655176396110" duration="4951000" />
+      <workItem from="1655176396110" duration="10262000" />
+      <workItem from="1655199587516" duration="368000" />
+      <workItem from="1655199969470" duration="341000" />
+      <workItem from="1655200353417" duration="4876000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1655176488102</created>
@@ -97,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655180939184</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="注释修改">
+      <created>1655181416320</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655181416320</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +169,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
     <MESSAGE value="SSM 小案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="SSM 小案例" />
+    <MESSAGE value="注释修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="注释修改" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

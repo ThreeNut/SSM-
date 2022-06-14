@@ -18,6 +18,7 @@
     <title>Title</title>
 </head>
 <body>
+<p>首页数据展示</p>
 <form>
     <c:forEach items="${item}" var="item">
     <table border=1>
