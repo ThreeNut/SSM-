@@ -1,5 +1,10 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<head>
+    <title>hello word!!!!!!</title>
+</head>
 <body>
-<h2>Hello World!</h2>
+
+<a href="/account/findAll">跳转</a>
 </body>
 </html>
