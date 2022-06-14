@@ -1,5 +1,9 @@
 package dao.domain;
-
+/**
+ * 实体
+ * @author ThreeNut
+ * @date 2022/6/14 12:33
+ */
 public class Account {
     private Integer id;
     private String name;

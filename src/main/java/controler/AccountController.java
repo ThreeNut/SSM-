@@ -10,11 +10,10 @@ import service.IService;
 import java.util.List;
 
 /**
- * web层
- *
- * @date 2019/11/27 16:05
+ * web
+ * @author ThreeNut
+ * @date 2022/6/14 12:33
  */
-
 @Controller
 @RequestMapping("/account")
 public class AccountController {
