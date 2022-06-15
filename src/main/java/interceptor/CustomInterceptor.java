@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * 拦截器
+ * 拦截器1
  * @author ThreeNut
  * @date 2022/6/14 17:19
  */
@@ -24,12 +24,6 @@ public class CustomInterceptor implements HandlerInterceptor {
         System.out.println("preHandle success !");
         HttpSession session = request.getSession();
         Object user_session = session.getAttribute("USER_SESSION");
-        String requestURI = request.getRequestURI();
-        // 不拦截
-  /*      if (requestURI.contains("login")){
-            System.out.println("-------不拦截login.jsp 登录页面");
-            return true;
-        }*/
         if (!ObjectUtils.isEmpty(user_session)) {
             return true;
         }

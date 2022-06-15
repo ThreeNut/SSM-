@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="987ee26a-ca3f-416f-a122-414c1f09b8e1" name="Default Changelist" comment="注释修改">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interceptor/CustomInterceptor1.java" afterDir="false" />
+    <list default="true" id="987ee26a-ca3f-416f-a122-414c1f09b8e1" name="Default Changelist" comment="拦截器登录案例">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controler/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controler/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/interceptor/CustomInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interceptor/CustomInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring_mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring_mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interceptor/CustomInterceptor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interceptor/CustomInterceptor1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +110,7 @@
       <workItem from="1655199587516" duration="368000" />
       <workItem from="1655199969470" duration="341000" />
       <workItem from="1655200353417" duration="4876000" />
-      <workItem from="1655276212546" duration="7256000" />
+      <workItem from="1655276212546" duration="9062000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1655176488102</created>
@@ -137,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655181416320</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="拦截器登录案例">
+      <created>1655284428227</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655284428227</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +174,8 @@
     <MESSAGE value="初始化" />
     <MESSAGE value="SSM 小案例" />
     <MESSAGE value="注释修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="注释修改" />
+    <MESSAGE value="拦截器登录案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="拦截器登录案例" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
