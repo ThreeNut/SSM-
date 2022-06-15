@@ -17,8 +17,13 @@
 <head>
     <title>Title</title>
 </head>
-<body>
+<>
 <p>首页数据展示</p>
+
+当前用户:${USER_SESSION.name}
+<a href="${pageContext.request.contextPath}/index/logout"> 退出登录 </a>
+<br/>
+<a href="/account/findAll">登录后直接访问show页面</a>
 <form>
     <c:forEach items="${item}" var="item">
     <table border=1>

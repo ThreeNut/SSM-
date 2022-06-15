@@ -19,6 +19,12 @@
 </head>
 <body>
 <p>登录页面</p>
-<a href="/account/findAll">登录</a>
+${msg}
+<form action="${pageContext.request.contextPath}/index/login" method="POST">
+    用户名: <input type="text" name="name"><br/>
+    ID: <input type="password" name="id"><br/>
+    <input type="submit" value="登录">
+</form>
+<a href="/account/findAll">直接访问show页面</a>
 </body>
 </html>
