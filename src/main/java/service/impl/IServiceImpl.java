@@ -21,6 +21,7 @@ public class IServiceImpl implements IService {
     @Autowired
     private IAccountDao dao;
 
+    @Override
     public List<Account> findAll() {
         return dao.findAll();
     }

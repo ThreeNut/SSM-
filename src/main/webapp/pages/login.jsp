@@ -21,8 +21,8 @@
 <p>登录页面</p>
 ${msg}
 <form action="${pageContext.request.contextPath}/index/login" method="POST">
-    用户名: <input type="text" name="name"><br/>
-    ID: <input type="password" name="id"><br/>
+    用户名: <input type="text" name="name" placeholder="admin"><br/>
+    ID: <input type="password" name="id" placeholder="123"><br/>
     <input type="submit" value="登录">
 </form>
 <a href="/account/findAll">直接访问show页面</a>

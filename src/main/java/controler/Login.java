@@ -46,7 +46,7 @@ public class Login {
         System.out.println(account);
         String name = account.getName();
         Integer id = account.getId();
-        if (name != null && id != null && name.equals("zou") && id == 1){
+        if (name != null && id != null && name.equals("admin") && id == 123){
             httpsession.setAttribute("USER_SESSION", account);
             return "show";
         }

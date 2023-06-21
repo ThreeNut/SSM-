@@ -17,13 +17,13 @@
 <head>
     <title>Title</title>
 </head>
-<>
-<p>首页数据展示</p>
 
-当前用户:${USER_SESSION.name}
-<a href="${pageContext.request.contextPath}/index/logout"> 退出登录 </a>
+<h1>拦截器的简单演示案例HandlerInterceptor</h1>
+<h2>当前用户登录账户:${USER_SESSION.name} ||     <a href="${pageContext.request.contextPath}/index/logout"> 退出登录 </a></h2>
+<p>这是首页内容</p>
 <br/>
-<a href="/account/findAll">登录后直接访问show页面</a>
+登录才可以查询数据
+<a href="/account/findAll">查询mysql</a>
 <form>
     <c:forEach items="${item}" var="item">
     <table border=1>
@@ -43,7 +43,7 @@
             <td>email</td>
             <td>${item.email} </td>
         </tr>
-        <p>.................</p>
+        <p>........数据的简单演示.........</p>
         </c:forEach>
     </table>
 
